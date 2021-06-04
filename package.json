@@ -1,0 +1,45 @@
+{
+  "name": "front-streaming-project-api",
+  "version": "1.0.0",
+  "description": "api for front streaming project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abadthiiing/front-streaming-project-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abadthiiing/front-streaming-project-api/issues"
+  },
+  "homepage": "https://github.com/abadthiiing/front-streaming-project-api#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.16.0",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.1.3",
+    "express-session": "^1.17.1",
+    "express-useragent": "^1.0.15",
+    "fs": "0.0.1-security",
+    "geoip-lite": "^1.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^2.2.0",
+    "jwt-simple": "^0.5.6",
+    "md5": "^2.3.0",
+    "moment": "^2.27.0",
+    "mysql2": "^2.1.0",
+    "nodemailer": "^6.4.11",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "password-generator": "^2.3.2",
+    "sequelize": "^6.3.3",
+    "uuid": "^8.3.0"
+  }
+}
